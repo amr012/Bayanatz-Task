@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:pay/pay.dart';
 
 import '../../../core/payment_config/payment_config.dart';
+import '../../../custom_widgets/custom_dialog.dart';
 
 class AppleAndGooglePaymentScreen extends StatefulWidget {
   const AppleAndGooglePaymentScreen({super.key});
@@ -48,7 +49,10 @@ class _AppleAndGooglePaymentScreenState extends State<AppleAndGooglePaymentScree
     ],
     type: GooglePayButtonType.pay,
     margin: const EdgeInsets.only(top: 15.0),
-    onPaymentResult: (result) => debugPrint('Payment Result $result'),
+    onPaymentResult: (result){
+      debugPrint('Payment Result $result');
+
+    },
     loadingIndicator: const Center(
       child: CircularProgressIndicator(),
     ),

@@ -4,13 +4,23 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+ I have finished the Third Flutter Development Challenge  :
+  
+ I have chose that challenge to take a step in payment methods so,
+ I have implemented a small cycle for payment method
 
-A few resources to get you started if this is your first Flutter project:
+ The first payment method ( Visa ): 
+ I have used Stripe to make payments with visa ,
+ I have integrated Stripe to flutter with Clean Architecture through a package - Flutter Stripe and Stripe Documentation.
+ 
+the second payment method ( Paypal ) : 
+ I have integrated  Paypal to flutter through a package called Flutter Paypal Payment and its easy to use.
+ 
+ Account to test Paypal:
+ email : sb-yhdvh28068871@personal.example.com
+ password : Amr#khaled
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+the third payment method ( Apple & Google Pay) :
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I have used a package called - Pay  
+
